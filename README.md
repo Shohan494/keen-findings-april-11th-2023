@@ -42,6 +42,9 @@ but now the status update was changed on based on api response when it is called
 - invoicehub to hostfact should not be a problem afterwards
 
 - for march data, 202303, ensured keen to invoicehub current_customer_data import then processed for hostfact
+- here came something, some current_customer_data table's field named referencecode contains different debtorcode structure, we have to fix them for errorless hostfact invoicing, example : DB0064_TWC means DB0064, DB0064 also means DB0064, ZDGHDB0064 does also mean DB0064
+- for the above issue, manual or a script solution both are applicable, **but if we do import again and again, script is better solution**
+
 
 
 
