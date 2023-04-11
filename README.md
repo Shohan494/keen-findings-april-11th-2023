@@ -41,6 +41,11 @@ but now the status update was changed on based on api response when it is called
 - in invoicehub we have to sure latest current_customer_data, from api call or in any way, *THIS IS A TASK THAT SHOULD BE DONE*
 - invoicehub to hostfact should not be a problem afterwards
 
+- for march data, 202303, ensured keen to invoicehub current_customer_data import then processed for hostfact
+
+
+
+
 #### Process findings on 11th april, 2023
 
 - error 1st time pw mismatch api, reason file last update october, 2022, this always happens, and we may lose enough code even elsewhere, *SHOULD BE A CONCERN TO ENSURE PREVENTING THIS*
