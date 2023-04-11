@@ -45,7 +45,7 @@ but now the status update was changed on based on api response when it is called
 - here came something, some current_customer_data table's field named referencecode contains different debtorcode structure, we have to fix them for errorless hostfact invoicing, example : DB0064_TWC means DB0064, DB0064 also means DB0064, ZDGHDB0064 does also mean DB0064
 - for the above issue, manual or a script solution both are applicable, **but if we do import again and again, script is better solution**
 
-- finally converting the output result after hostfact submission to log, mainly print_r or echo to log conversion
+- **finally converting the output result after hostfact submission to log, mainly print_r or echo to log conversion**
 
 
 
